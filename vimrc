@@ -6,8 +6,7 @@ source $HOME/.vim/settings/basic.vim
 execute pathogen#infect()
 
 """ and now, my own settings and mappings:
-
-" source $HOME/.vim/settings/colors.vim       " color settings
+source $HOME/.vim/settings/colors.vim       " color settings
 " source $HOME/.vim/settings/editing.vim      " movement and editing
 " source $HOME/.vim/settings/statusline.vim   " custom statusline
 " source $HOME/.vim/settings/plugins.vim      " plugin settings
