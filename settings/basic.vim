@@ -152,6 +152,7 @@ set modeline            " allow per file mode lines
 set modelines=20        " look in the first 20 lines for a modeline
 set endofline           " always have a end of line on the last line
 set autoread            " automatically read file when modified outside of vim
+set autowrite           " automatically write files when switching buffers
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
