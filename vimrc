@@ -3,7 +3,7 @@
 source $HOME/.vim/settings/basic.vim
 
 """ load pathogen
-runtime bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect()
 
 """ and now, my own settings and mappings:
 
