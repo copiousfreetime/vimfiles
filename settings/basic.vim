@@ -129,6 +129,7 @@ set expandtab           " always expand tabs
 """ 15 folding
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set foldmethod=syntax   " use the syntax for folding
+set nofoldenable        " default to all folds open
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
