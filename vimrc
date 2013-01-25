@@ -1,5 +1,6 @@
+""" set the root directory for all our vimfiles
 """ basic settings first:
-" source $HOME/.vim/settings/basic.vim
+source $HOME/.vim/settings/basic.vim
 
 """ load plugin paths
 " call pathogen#infect()
