@@ -50,6 +50,9 @@ plugin 'align', 'https://github.com/tsaleh/vim-align.git'
 # syntax checking
 plugin 'syntastic', 'https://github.com/scrooloose/syntastic.git'
 
+# looking at the source code
+plugin 'tagbar', 'https://github.com/majutsushi/tagbar.git'
+
 # ruby language support
 plugin "vim-ruby", "https://github.com/vim-ruby/vim-ruby.git"
 plugin "puppet", "https://github.com/ajf/puppet-vim.git"
@@ -62,9 +65,12 @@ plugin 'csv', 'https://github.com/vim-scripts/csv.vim.git'
 
 # markdown
 plugin "markdown", "https://github.com/tpope/vim-markdown.git"
-# textile
 
+# textile
 plugin "textile", "https://github.com/timcharper/textile.vim.git"
+
+# Taskpaper
+plugin 'taskpaper', "https://github.com/davidoc/taskpaper.vim.git"
 
 ### MISC
 
@@ -74,3 +80,11 @@ plugin 'git', 'https://github.com/tpope/vim-git.git'
 
 # Gists
 plugin 'gist', 'https://github.com/mattn/gist-vim.git'
+
+# note taking
+# plugin 'notes', 'https://github.com/vim-scripts/Notes.git'
+# plugin 'genutils', 'https://github.com/vim-scripts/genutils.git'
+plugin 'notes', 'https://github.com/xolox/vim-notes.git'
+#plugin 'vim-orgmode', 'https://github.com/jceb/vim-orgmode.git'
+plugin 'calendar', 'https://github.com/mattn/calendar-vim.git'
+plugin 'journal', 'https://github.com/jmcantrell/vim-journal.git'
