@@ -205,4 +205,4 @@ set termencoding=utf-8
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ 25 various
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" none yet
+set gdefault              " use g on all substitutions

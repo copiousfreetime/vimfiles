@@ -17,7 +17,7 @@ task :link_configs do
     ln_s(Dir.pwd, dotvim)
   end
 
-  %w[ vimrc gvimrc ].each do |file|
+  %w[ vimrc ].each do |file|
     dest = File.expand_path("~/.#{file}")
     unless File.exist?(dest)
       puts "linking #{file}"
