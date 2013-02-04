@@ -82,9 +82,6 @@ plugin 'git', 'https://github.com/tpope/vim-git.git'
 plugin 'gist', 'https://github.com/mattn/gist-vim.git'
 
 # note taking
-# plugin 'notes', 'https://github.com/vim-scripts/Notes.git'
-# plugin 'genutils', 'https://github.com/vim-scripts/genutils.git'
-plugin 'notes', 'https://github.com/xolox/vim-notes.git'
-#plugin 'vim-orgmode', 'https://github.com/jceb/vim-orgmode.git'
 plugin 'calendar', 'https://github.com/mattn/calendar-vim.git'
-plugin 'journal', 'https://github.com/jmcantrell/vim-journal.git'
+plugin 'logbook', 'https://github.com/noahfrederick/vim-logbook.git'
+plugin 'vimwiki', 'https://github.com/vim-scripts/vimwiki.git'
