@@ -49,3 +49,8 @@ nmap <leader>tl <Plug>VimwikiToggleListItem
 nmap <leader>dp <Plug>VimwikiDiaryPrevDay
 nmap <leader>dn <Plug>VimwikiDiaryNextDay
 
+"" netrw
+let g:netrw_preview   = 1
+let g:netrw_liststyle = 3
+let g:netrw_winsize   = 80
+let g:netrw_altv      = 1
