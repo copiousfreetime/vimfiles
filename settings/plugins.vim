@@ -42,7 +42,7 @@ let g:vimwiki_hl_headers     = 1 " use VimwikHeader1-VimwikiHeader6 colors for h
 let g:vimwiki_hl_cb_checked  = 1
 let g:vimwiki_folding        = 1 " allow folding of items in the wiki
 let g:vimwiki_fold_lists     = 1 " allow the folding of lists
-let g:vimwiki_debug          = 1
+"let g:vimwiki_debug          = 1
 
 
 nmap <leader>tl <Plug>VimwikiToggleListItem
