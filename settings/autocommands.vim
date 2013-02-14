@@ -13,6 +13,9 @@ autocmd BufNewFile ~/DropBox/Notes/journal/*.md call s:new_journal_entry(expand(
 function! s:new_journal_entry(filename)
   let t = [ '# '. fnamemodify( a:filename, ':t:r' ) ]
   let t += ['', '', '## TODO']
+  let t += ['', '', '- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -']
   let t += ['', '', '## DONE']
+  let t += ['', '', '- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -']
+  let t += ['', '', '## HOURS']
   call append(0, t)
 endfunction
