@@ -172,9 +172,10 @@ set wildignore+=*.zip,*.tar,*.gz,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz
 set wildignore+=vendor/gems/*,vendor/cache/*,.bundle/*
 set wildignore+=*.swp,*~,._*
 
-set wildmenu            " commandline completion shows matches
-set undofile            " use an undo file
-set undodir=~/.vimundo  " where to have the undo history
+set wildmenu              " commandline completion shows matches
+set wildmode=longest:full " move to longest common substr and start wildmenu
+set undofile              " use an undo file
+set undodir=~/.vimundo    " where to have the undo history
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
