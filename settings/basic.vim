@@ -47,7 +47,9 @@ set hlsearch        " highlight matches when searching
 "set cursorcolumn    " show the screen line of the cursor
 set cursorline      " show the screen line of the cursor
 
-set colorcolumn=+0,120 " show a line at text width and at 120
+if exists("+colorcolumn")
+  set colorcolumn=+0,120 " show a line at text width and at 120
+end
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -174,8 +176,11 @@ set wildignore+=*.swp,*~,._*
 
 set wildmenu              " commandline completion shows matches
 set wildmode=longest:full " move to longest common substr and start wildmenu
-set undofile              " use an undo file
-set undodir=~/.vimundo    " where to have the undo history
+
+if exists("+undofile")
+  set undofile              " use an undo file
+  set undodir=~/.vimundo    " where to have the undo history
+end
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
