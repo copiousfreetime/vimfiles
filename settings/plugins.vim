@@ -26,7 +26,7 @@ let g:tagbar_type_ruby = {
 "" VimWiki
 
 let my_wiki                = {}
-let my_wiki.path           = '~/Dropbox/Notes'
+let my_wiki.path           = '/Users/jeremy/Dropbox/Notes'
 let my_wiki.syntax         = 'markdown'
 let my_wiki.ext            = '.md'
 let my_wiki.diary_rel_path = 'journal/'
@@ -48,6 +48,7 @@ let g:vimwiki_fold_lists     = 1 " allow the folding of lists
 nmap <leader>tl <Plug>VimwikiToggleListItem
 nmap <leader>dp <Plug>VimwikiDiaryPrevDay
 nmap <leader>dn <Plug>VimwikiDiaryNextDay
+nmap <leader>wf <Plug>VimwikiSearch
 
 "" netrw
 let g:netrw_preview   = 1
