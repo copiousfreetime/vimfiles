@@ -49,6 +49,7 @@ plugin 'align', 'https://github.com/tsaleh/vim-align.git'
 ### LANGUAGE AND SYNTAX
 # syntax checking
 plugin 'syntastic', 'https://github.com/scrooloose/syntastic.git'
+plugin 'scala', 'https://github.com/derekwyatt/vim-scala.git'
 
 # looking at the source code
 plugin 'tagbar', 'https://github.com/majutsushi/tagbar.git'
