@@ -58,11 +58,10 @@ plugin 'tagbar', 'https://github.com/majutsushi/tagbar.git'
 plugin "vim-ruby", "https://github.com/vim-ruby/vim-ruby.git"
 plugin "puppet", "https://github.com/ajf/puppet-vim.git"
 plugin "rails", "https://github.com/tpope/vim-rails.git"
-plugin "rspec", "https://github.com/taq/vim-rspec.git"
 plugin "sinatra", "https://github.com/hallison/vim-ruby-sinatra.git"
 
 # rust language support
-plugin "rust.vim" "https://github.com/wting/rust.vim.git"
+plugin "rust", "https://github.com/wting/rust.vim.git"
 
 # csv files
 plugin 'csv', 'https://github.com/vim-scripts/csv.vim.git'
