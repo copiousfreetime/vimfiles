@@ -50,6 +50,7 @@ plugin 'align', 'https://github.com/tsaleh/vim-align.git'
 # syntax checking
 plugin 'syntastic', 'https://github.com/scrooloose/syntastic.git'
 plugin 'scala', 'https://github.com/derekwyatt/vim-scala.git'
+plugin 'golang', 'https://github.com/jnwhiteh/vim-golang.git'
 
 # looking at the source code
 plugin 'tagbar', 'https://github.com/majutsushi/tagbar.git'
