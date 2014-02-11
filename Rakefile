@@ -44,7 +44,7 @@ plugin "endwise", "https://github.com/tpope/vim-endwise.git"
 plugin 'matchit', 'https://github.com/edsono/vim-matchit.git'
 
 # Align things up neatly
-plugin 'align', 'https://github.com/tsaleh/vim-align.git'
+plugin 'easy-align', 'https://github.com/junegunn/vim-easy-align.git'
 
 ### LANGUAGE AND SYNTAX
 # syntax checking

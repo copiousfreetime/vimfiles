@@ -64,3 +64,16 @@ let g:netrw_liststyle    = 3
 let g:netrw_winsize      = 80
 let g:netrw_altv         = 1
 let g:netrw_browse_split = 3
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" EasyAlign
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Start interactive EasyAlign in visual mode
+vmap <Enter> <Plug>(EasyAlign)
+
+" Start interactive EasyAlign with a Vim movement
+nmap <Leader>a <Plug>(EasyAlign)
+
+vmap <Leader><Enter>   <Plug>(LiveEasyAlign)
+nmap <Leader><Leader>a <Plug>(LiveEasyAlign)
