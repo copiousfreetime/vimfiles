@@ -1,7 +1,12 @@
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" ACK
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 nnoremap <leader>a :Ack
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" Tagbar
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " add in markdown support
 let g:tagbar_type_markdown = {
   \ 'ctagstype' : 'markdown',
@@ -23,8 +28,9 @@ let g:tagbar_type_ruby = {
     \ ]
 \ }
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" VimWiki
-
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let my_wiki                = {}
 let my_wiki.path           = '/Users/jeremy/Dropbox/Notes'
 let my_wiki.syntax         = 'markdown'
@@ -50,7 +56,9 @@ nmap <leader>dp <Plug>VimwikiDiaryPrevDay
 nmap <leader>dn <Plug>VimwikiDiaryNextDay
 nmap <leader>wf <Plug>VimwikiSearch
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" netrw
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:netrw_preview      = 1
 let g:netrw_liststyle    = 3
 let g:netrw_winsize      = 80
