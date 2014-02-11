@@ -51,6 +51,7 @@ plugin 'align', 'https://github.com/tsaleh/vim-align.git'
 plugin 'syntastic', 'https://github.com/scrooloose/syntastic.git'
 plugin 'scala', 'https://github.com/derekwyatt/vim-scala.git'
 plugin 'golang', 'https://github.com/jnwhiteh/vim-golang.git'
+plugin 'coffee-script', 'https://github.com/kchmck/vim-coffee-script.git'
 
 # looking at the source code
 plugin 'tagbar', 'https://github.com/majutsushi/tagbar.git'
