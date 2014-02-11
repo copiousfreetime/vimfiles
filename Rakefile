@@ -66,7 +66,7 @@ plugin "sinatra", "https://github.com/hallison/vim-ruby-sinatra.git"
 plugin "rust", "https://github.com/wting/rust.vim.git"
 
 # csv files
-plugin 'csv', 'https://github.com/vim-scripts/csv.vim.git'
+plugin 'csv', 'https://github.com/chrisbra/csv.vim'
 
 # markdown
 plugin "markdown", "https://github.com/tpope/vim-markdown.git"
