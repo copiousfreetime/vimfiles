@@ -77,6 +77,12 @@ plugin "textile", "https://github.com/timcharper/textile.vim.git"
 # ledger
 plugin "ledger", "https://github.com/ledger/vim-ledger.git"
 
+# Databases
+plugin 'dbext', "https://github.com/vim-scripts/dbext.vim.git"
+
+# project management
+plugin 'projectile', "https://github.com/tpope/vim-projectile.git"
+
 ### MISC
 
 # Git support

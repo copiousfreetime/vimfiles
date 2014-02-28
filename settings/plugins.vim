@@ -77,3 +77,9 @@ nmap <Leader>a <Plug>(EasyAlign)
 
 vmap <Leader><Enter>   <Plug>(LiveEasyAlign)
 nmap <Leader><Leader>a <Plug>(LiveEasyAlign)
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" DBEXT    
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:dbext_default_profile_PG = 'type=PGSQL:user=jeremy'
