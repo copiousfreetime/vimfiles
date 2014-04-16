@@ -61,6 +61,7 @@ plugin "vim-ruby", "https://github.com/vim-ruby/vim-ruby.git"
 plugin "puppet", "https://github.com/ajf/puppet-vim.git"
 plugin "rails", "https://github.com/tpope/vim-rails.git"
 plugin "sinatra", "https://github.com/hallison/vim-ruby-sinatra.git"
+plugin "ruby-heredoc-syntax", "https://github.com/joker1007/vim-ruby-heredoc-syntax"
 
 # rust language support
 plugin "rust", "https://github.com/wting/rust.vim.git"
@@ -88,6 +89,7 @@ plugin 'projectile', "https://github.com/tpope/vim-projectile.git"
 # Git support
 plugin "fugitive", "https://github.com/tpope/vim-fugitive.git"
 plugin 'git', 'https://github.com/tpope/vim-git.git'
+plugin "git-gutter", "https://github.com/airblade/vim-gitgutter.git"
 
 # Gists
 plugin 'gist', 'https://github.com/mattn/gist-vim.git'
