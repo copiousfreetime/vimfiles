@@ -25,6 +25,7 @@ plugin 'bufexplorer', 'https://github.com/vim-scripts/bufexplorer.zip.git'
 ### Color schemes
 plugin "solarized", "https://github.com/altercation/vim-colors-solarized.git"
 plugin "tomorrow-night", "https://github.com/chriskempson/vim-tomorrow-theme.git"
+plugin "base16-vim", "https://github.com/chriskempson/base16-vim.git"
 
 ### EDITING AND MOVING
 
