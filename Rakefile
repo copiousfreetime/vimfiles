@@ -51,7 +51,7 @@ plugin 'easy-align', 'https://github.com/junegunn/vim-easy-align.git'
 # syntax checking
 plugin 'syntastic', 'https://github.com/scrooloose/syntastic.git'
 plugin 'scala', 'https://github.com/derekwyatt/vim-scala.git'
-plugin 'golang', 'https://github.com/jnwhiteh/vim-golang.git'
+plugin 'vim-go', 'https://github.com/fatih/vim-go.git'
 plugin 'coffee-script', 'https://github.com/kchmck/vim-coffee-script.git'
 plugin 'apiblueprint', 'https://github.com/kylef/apiblueprint.vim.git'
 
