@@ -77,6 +77,9 @@ plugin "markdown", "https://github.com/tpope/vim-markdown.git"
 # textile
 plugin "textile", "https://github.com/timcharper/textile.vim.git"
 
+# toml
+plugin "toml", "https://github.com/cespare/vim-toml.git"
+
 # ledger
 plugin "ledger", "https://github.com/ledger/vim-ledger.git"
 
