@@ -14,6 +14,7 @@ end
 
 # file navigation
 plugin 'ctrlp', 'https://github.com/kien/ctrlp.vim.git'
+plugin 'vinegar', 'https://github.com/tpope/vim-vinegar.git'
 
 # update tags files on every save
 plugin "autotag", "https://github.com/vim-scripts/AutoTag.git"
@@ -22,10 +23,14 @@ plugin "ack", "https://github.com/mileszs/ack.vim.git"
 # look at all the buffers we have open
 plugin 'bufexplorer', 'https://github.com/vim-scripts/bufexplorer.zip.git'
 
+# tmux integeration
+plugin 'vtr', 'https://github.com/christoomey/vim-tmux-runner.git'
+
 ### Color schemes
 plugin "solarized", "https://github.com/altercation/vim-colors-solarized.git"
 plugin "tomorrow-night", "https://github.com/chriskempson/vim-tomorrow-theme.git"
 plugin "base16-vim", "https://github.com/chriskempson/base16-vim.git"
+
 
 ### EDITING AND MOVING
 
@@ -92,6 +97,7 @@ plugin 'projectile', "https://github.com/tpope/vim-projectile.git"
 plugin "fugitive", "https://github.com/tpope/vim-fugitive.git"
 plugin 'git', 'https://github.com/tpope/vim-git.git'
 plugin "git-gutter", "https://github.com/airblade/vim-gitgutter.git"
+plugin "extradite", "https://github.com/int3/vim-extradite.git"
 
 # Gists
 plugin 'gist', 'https://github.com/mattn/gist-vim.git'
