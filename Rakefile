@@ -52,6 +52,9 @@ plugin 'matchit', 'https://github.com/edsono/vim-matchit.git'
 # Align things up neatly
 plugin 'easy-align', 'https://github.com/junegunn/vim-easy-align.git'
 
+# file manipulation
+plugin 'eunuch', 'https://github.com/tpope/vim-eunuch.git'
+
 ### LANGUAGE AND SYNTAX
 # syntax checking
 plugin 'syntastic', 'https://github.com/scrooloose/syntastic.git'
