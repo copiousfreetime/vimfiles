@@ -107,4 +107,6 @@ plugin 'gist', 'https://github.com/mattn/gist-vim.git'
 
 # note taking
 plugin 'calendar', 'https://github.com/mattn/calendar-vim.git'
-plugin 'vimwiki', 'https://github.com/vim-scripts/vimwiki.git'
+#plugin 'vimwiki', 'https://github.com/vim-scripts/vimwiki.git'
+plugin 'vim-misc', 'https://github.com/xolox/vim-misc.git'
+plugin 'vim-notes', 'https://github.com/xolox/vim-notes.git'
