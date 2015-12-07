@@ -108,4 +108,3 @@ plugin 'gist', 'https://github.com/mattn/gist-vim.git'
 # note taking
 plugin 'calendar', 'https://github.com/mattn/calendar-vim.git'
 plugin 'vimwiki', 'https://github.com/vim-scripts/vimwiki.git'
-plugin 'orgmode', 'https://github.com/jceb/vim-orgmode.git'
