@@ -57,12 +57,22 @@ let g:tagbar_type_ruby = {
 " nmap <leader>wf <Plug>VimwikiSearch
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" notes
+" vim-pad
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:notes_directories = ['~/Dropbox/Notes']
-let g:notes_suffix = '.md'
-let g:notes_unicode_enabled = 0
-let g:notes_smart_quotes = 0
+let g:pad#dir                    = "~/Dropbox/Notes"
+let g:pad#default_format         = "markdown"
+let g:pad#default_file_extension = ".md"
+let g:pad#local_dir              = "notes"
+let g:pad#window_height          = 15
+let g:pad#set_mappings           = 0
+let g:pad#open_in_split          = 0
+let g:pad#search_backend         = "ag"
+
+nmap <leader>kl <Plug>(pad-list)
+nmap <leader>kn <Plug>(pad-new)
+nmap <leader>ks <Plug>(pad-search)
+nmap <leader>kf <Plug>(pad-incremental-search)
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" netrw
@@ -97,11 +107,11 @@ let g:dbext_default_profile_PG = 'type=PGSQL:user=jeremy'
 "" Ctrl-P
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Open new file in a new tab
-let g:ctrlp_open_new_file = 't' " 
-let g:ctrlp_working_path_mode = 'ra'
-let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\v[\/](\.git|\.hg|\.svn|tmp)$',
-  \ 'file': '\v\.(exe|so|dll)$',
-  \ 'link': 'some_bad_symbolic_links',
-  \ }
+" let g:ctrlp_open_new_file = 't' " 
+" let g:ctrlp_working_path_mode = 'ra'
+" let g:ctrlp_custom_ignore = {
+"   \ 'dir':  '\v[\/](\.git|\.hg|\.svn|tmp)$',
+"   \ 'file': '\v\.(exe|so|dll)$',
+"   \ 'link': 'some_bad_symbolic_links',
+"   \ }
 
