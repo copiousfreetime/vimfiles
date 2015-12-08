@@ -29,12 +29,14 @@ set hlsearch   " show highlits of last match
 set scrolloff=3     " show 3 lines above/below cursor
 set nowrap          " do not wrap long lines
 set sidescroll=1    " scroll 1 to the left/right
-set sidescrolloff=3 " keep at least 3 cols to the left/right of cursor
+set sidescrolloff=5 " keep at least 3 cols to the left/right of cursor
 
 set list            " show invisible characters
-set listchars=tab:\ ➤,trail:⋅,nbsp:⋅,extends:»,precedes:«
+"set listchars=tab:\ ➤,trail:⋅,nbsp:⋅,extends:»,precedes:«
+set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
 
 set number          " show line numbers
+set display+=lastline " show as much as possible of the last line in a window
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -116,6 +118,7 @@ set backspace=indent,eol,start " what does backspace do in insert mode
 set showmatch           " when inserting a bracket, show its match
 set matchtime=1         " show match for 1 tenth of a second
 set nojoinspaces        " remove 2 spaces after . when joining a line
+set formatoptions+=j    " Delete comment character when joining commented lines
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -125,6 +128,7 @@ set tabstop=2           " 2 space tabstops
 set shiftwidth=2        " 2 space indents
 set softtabstop=2       " 2 spaces insert when hitting <Tab>
 set expandtab           " always expand tabs
+set smarttab            " insert shiftwidt tabs at the beginning of a line
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
