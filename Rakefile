@@ -13,7 +13,9 @@ plugin "pathogen",  "https://github.com/tpope/vim-pathogen.git" do
 end
 
 # file navigation
-plugin 'ctrlp', 'https://github.com/kien/ctrlp.vim.git'
+# plugin 'ctrlp', 'https://github.com/kien/ctrlp.vim.git'
+plugin 'unite', 'https://github.com/Shougo/unite.vim.git'
+plugin 'unite-outline', 'https://github.com/h1mesuke/unite-outline.git'
 plugin 'vinegar', 'https://github.com/tpope/vim-vinegar.git'
 
 # update tags files on every save
@@ -108,5 +110,4 @@ plugin 'gist', 'https://github.com/mattn/gist-vim.git'
 # note taking
 plugin 'calendar', 'https://github.com/mattn/calendar-vim.git'
 #plugin 'vimwiki', 'https://github.com/vim-scripts/vimwiki.git'
-plugin 'vim-misc', 'https://github.com/xolox/vim-misc.git'
-plugin 'vim-notes', 'https://github.com/xolox/vim-notes.git'
+plugin 'vim-pad', 'https://github.com/fmoralesc/vim-pad.git'
