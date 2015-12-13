@@ -13,17 +13,14 @@ plugin "pathogen",  "https://github.com/tpope/vim-pathogen.git" do
 end
 
 # file navigation
-# plugin 'ctrlp', 'https://github.com/kien/ctrlp.vim.git'
-plugin 'unite', 'https://github.com/Shougo/unite.vim.git'
-plugin 'unite-outline', 'https://github.com/h1mesuke/unite-outline.git'
-plugin 'vinegar', 'https://github.com/tpope/vim-vinegar.git'
+plugin 'ctrlp', 'https://github.com/kien/ctrlp.vim.git'
 
 # update tags files on every save
 plugin "autotag", "https://github.com/vim-scripts/AutoTag.git"
 plugin "ack", "https://github.com/mileszs/ack.vim.git"
 
 # look at all the buffers we have open
-plugin 'bufexplorer', 'https://github.com/vim-scripts/bufexplorer.zip.git'
+plugin 'bufexplorer', 'https://github.com/jlanzarotta/bufexplorer.git'
 
 # tmux integeration
 plugin 'vtr', 'https://github.com/christoomey/vim-tmux-runner.git'
