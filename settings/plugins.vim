@@ -77,12 +77,19 @@ nmap <leader>kf <Plug>(pad-incremental-search)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" netrw
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let s:dotfiles           = '\(^\|\s\s\)\zs\.\S\+'
+let s:escape             = 'substitute(escape(v:val, ".$~"), "*", ".*", "g")'
 let g:netrw_preview      = 1
 let g:netrw_liststyle    = 3
 let g:netrw_winsize      = 80
 let g:netrw_altv         = 1
 let g:netrw_browse_split = 3
 let g:netrw_fastbrowse   = 1
+let g:netrw_banner       = 0
+let g:netrw_sort_sequence = '[\/]$,*,\%(' . join(map(split(&suffixes, ','), 'escape(v:val, ".*$~")'), '\|') . '\)[*@]\=$'
+let g:netrw_list_hide     =
+       \ join(map(split(&wildignore, ','), '"^".' . s:escape . '. "$"'), ',') . ',^\.\.\=/\=$' .
+       \ (get(g:, 'netrw_list_hide', '')[-strlen(s:dotfiles)-1:-1] ==# s:dotfiles ? ','.s:dotfiles : '')
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" EasyAlign

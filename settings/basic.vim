@@ -47,7 +47,7 @@ set background=dark
 syntax enable       " turn on syntax highlighting
 set hlsearch        " highlight matches when searching
 "set cursorcolumn    " show the screen line of the cursor
-set cursorline      " show the screen line of the cursor
+"set cursorline      " show the screen line of the cursor
 
 if exists("+colorcolumn")
   set colorcolumn=+0,120 " show a line at text width and at 120
