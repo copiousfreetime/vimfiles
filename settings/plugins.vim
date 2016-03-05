@@ -78,7 +78,7 @@ nmap <Leader><Leader>a <Plug>(LiveEasyAlign)
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"" DBEXT    
+"" DBEXT
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:dbext_default_profile_PG = 'type=PGSQL:user=jeremy'
 
@@ -86,11 +86,11 @@ let g:dbext_default_profile_PG = 'type=PGSQL:user=jeremy'
 "" Ctrl-P
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Open new file in a new tab
-" let g:ctrlp_open_new_file = 't' " 
-" let g:ctrlp_working_path_mode = 'ra'
-" let g:ctrlp_custom_ignore = {
-"   \ 'dir':  '\v[\/](\.git|\.hg|\.svn|tmp)$',
-"   \ 'file': '\v\.(exe|so|dll)$',
-"   \ 'link': 'some_bad_symbolic_links',
-"   \ }
+let g:ctrlp_open_new_file = 't' " 
+let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/](\.git|\.hg|\.svn|tmp)$',
+  \ 'file': '\v\.(exe|so|dll)$',
+  \ 'link': 'some_bad_symbolic_links',
+  \ }
 

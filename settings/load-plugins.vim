@@ -13,12 +13,12 @@ Plug 'jlanzarotta/bufexplorer'
 " tmux integeration
 Plug 'christoomey/vim-tmux-runner'
 
-"## Color schemes
-Plug 'altercation/vim-colors-solarized'
-Plug 'chriskempson/vim-tomorrow-theme'
+" Color schemes
+" Plug 'altercation/vim-colors-solarized'
+" Plug 'chriskempson/vim-tomorrow-theme'
 Plug 'chriskempson/base16-vim'
 
-"## EDITING AND MOVING
+" EDITING AND MOVING
 
 " fix '.' so it does the right thing with plugins
 Plug 'tpope/vim-repeat'
@@ -70,12 +70,6 @@ Plug 'timcharper/textile.vim'
 
 " toml
 Plug 'cespare/vim-toml'
-
-" ledger
-Plug 'ledger/vim-ledger'
-
-" project management
-Plug 'tpope/vim-projectile'
 
 "## MISC
 
