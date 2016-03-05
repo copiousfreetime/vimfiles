@@ -3,3 +3,4 @@ bundle/
 *~
 autoload/pathogen.vim
 .netrwhist
+plugged/

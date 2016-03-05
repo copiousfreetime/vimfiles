@@ -2,8 +2,11 @@
 """ basic settings first:
 source $HOME/.config/nvim/settings/basic.vim
 
+""" load plugins
+source $HOME/.config/nvim/settings/load-plugins.vim
+
 """ load pathogen
-execute pathogen#infect()
+" execute pathogen#infect()
 
 """ and now, my own settings and mappings:
 source $HOME/.config/nvim/settings/colors.vim       " color settings
