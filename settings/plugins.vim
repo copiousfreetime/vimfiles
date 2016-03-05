@@ -29,34 +29,6 @@ let g:tagbar_type_ruby = {
 \ }
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"" VimWiki
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" let my_wiki                = {}
-" let my_wiki.path           = '/Users/jeremy/Dropbox/Notes'
-" let my_wiki.syntax         = 'markdown'
-" let my_wiki.ext            = '.md'
-" let my_wiki.diary_rel_path = 'journal/'
-" let my_wiki.diary_index    = 'journal'
-" let my_wiki.diary_header   = 'Journal'
-" let g:vimwiki_list         = [ my_wiki ]
-"
-" let g:vimwiki_use_calendar   = 1
-" let g:vimwiki_table_auto_fmt = 1
-" "let g:vimwiki_ext2synatx     = { '.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown' }
-" let g:vimwiki_auto_checkbox  = 1 " convert a list item to have a checkbox if toggling list item
-" let g:vimwiki_hl_headers     = 1 " use VimwikHeader1-VimwikiHeader6 colors for header levels
-" let g:vimwiki_hl_cb_checked  = 1
-" let g:vimwiki_folding        = 1 " allow folding of items in the wiki
-" let g:vimwiki_fold_lists     = 1 " allow the folding of lists
-" "let g:vimwiki_debug          = 1
-"
-"
-" nmap <leader>tl <Plug>VimwikiToggleListItem
-" nmap <leader>dp <Plug>VimwikiDiaryPrevDay
-" nmap <leader>dn <Plug>VimwikiDiaryNextDay
-" nmap <leader>wf <Plug>VimwikiSearch
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim-pad
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:pad#dir                    = "~/Dropbox/Notes"

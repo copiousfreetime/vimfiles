@@ -57,17 +57,14 @@ plugin 'eunuch', 'https://github.com/tpope/vim-eunuch.git'
 ### LANGUAGE AND SYNTAX
 # syntax checking
 plugin 'syntastic', 'https://github.com/scrooloose/syntastic.git'
-plugin 'scala', 'https://github.com/derekwyatt/vim-scala.git'
 plugin 'vim-go', 'https://github.com/fatih/vim-go.git'
 plugin 'coffee-script', 'https://github.com/kchmck/vim-coffee-script.git'
-plugin 'apiblueprint', 'https://github.com/kylef/apiblueprint.vim.git'
 
 # looking at the source code
 plugin 'tagbar', 'https://github.com/majutsushi/tagbar.git'
 
 # ruby language support
 plugin "vim-ruby", "https://github.com/vim-ruby/vim-ruby.git"
-plugin "puppet", "https://github.com/ajf/puppet-vim.git"
 plugin "rails", "https://github.com/tpope/vim-rails.git"
 plugin "sinatra", "https://github.com/hallison/vim-ruby-sinatra.git"
 plugin "ruby-heredoc-syntax", "https://github.com/joker1007/vim-ruby-heredoc-syntax"
