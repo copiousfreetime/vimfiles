@@ -6,17 +6,10 @@
 set clipboard+=unnamedplus
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-""" 1 important
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set nocompatible " vim, not vi
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ 2 moving around, searching and patterns
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set incsearch  " incremental searching
 set ignorecase " searches are case insensitive...
 set smartcase  " unless they contain a capital letter
-set hlsearch   " show highlits of last match
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -34,22 +27,14 @@ set sidescroll=1    " scroll 1 to the left/right
 set sidescrolloff=5 " keep at least 3 cols to the left/right of cursor
 
 set list            " show invisible characters
-"set listchars=tab:\ ➤,trail:⋅,nbsp:⋅,extends:»,precedes:«
 set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
-
 set number          " show line numbers
-set display+=lastline " show as much as possible of the last line in a window
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ 5 syntax, highlighting, and spelling
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set background=dark
-
-syntax enable       " turn on syntax highlighting
-set hlsearch        " highlight matches when searching
-"set cursorcolumn    " show the screen line of the cursor
-"set cursorline      " show the screen line of the cursor
 
 if exists("+colorcolumn")
   set colorcolumn=+0,120 " show a line at text width and at 120
@@ -59,9 +44,6 @@ end
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ 6 multiple windows
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set laststatus=2    " always show a status line
-
-" set statusline    " this is set in statusline.vim
 
 set winheight=10    " current window has an ok height
 set winminheight=3  " other open windows have 3 lines showing
@@ -75,7 +57,6 @@ set splitright      " and to the right
 """ 7 multiple tab pages
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set showtabline=2   " always show a tabline
-set tabpagemax=10   " maximum number of tab pages to open at once
 " set tabline       " set in tabline.vim
 
 
@@ -116,11 +97,9 @@ set visualbell t_vb=    " use visual bell and make it do nothing
 """ 13 editing text
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set textwidth=80        " Where to break lines
-set backspace=indent,eol,start " what does backspace do in insert mode
 set showmatch           " when inserting a bracket, show its match
 set matchtime=1         " show match for 1 tenth of a second
 set nojoinspaces        " remove 2 spaces after . when joining a line
-set formatoptions+=j    " Delete comment character when joining commented lines
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -130,7 +109,6 @@ set tabstop=2           " 2 space tabstops
 set shiftwidth=2        " 2 space indents
 set softtabstop=2       " 2 spaces insert when hitting <Tab>
 set expandtab           " always expand tabs
-set smarttab            " insert shiftwidt tabs at the beginning of a line
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -159,7 +137,6 @@ set nofoldenable        " default to all folds open
 set modeline            " allow per file mode lines
 set modelines=20        " look in the first 20 lines for a modeline
 set endofline           " always have a end of line on the last line
-set autoread            " automatically read file when modified outside of vim
 set autowrite           " automatically write files when switching buffers
 
 
@@ -172,7 +149,6 @@ set noswapfile          " no swapfile
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ 20 commandline editing
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set history=1000        " save lots of commands
 
 " What files to ignore for filename completion
 set wildignore+=*.o,*.obj,*~,.git,*.rbc,*.class,.svn,*.gem
@@ -180,7 +156,6 @@ set wildignore+=*.zip,*.tar,*.gz,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz
 set wildignore+=vendor/gems/*,vendor/cache/*,.bundle/*
 set wildignore+=*.swp,*~,._*
 
-set wildmenu              " commandline completion shows matches
 set wildmode=longest:full " move to longest common substr and start wildmenu
 
 if exists("+undofile")
@@ -209,12 +184,9 @@ end
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ 24 multi-byte characters
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set encoding=utf-8         " use UTF-8 for everything
 set fileencoding=utf-8
 set termencoding=utf-8
-
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ 25 various
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set gdefault              " use g on all substitutions
