@@ -11,18 +11,10 @@ end
 
 # link the .vimrc and .gvimrc files
 task :link_configs do
-  dotvim = File.expand_path("~/.vim")
+  dotvim = File.expand_path("~/.config/nvim")
   unless File.exist?(dotvim)
-    puts "linking .vim"
+    puts "linking .config/neovim"
     ln_s(Dir.pwd, dotvim)
-  end
-
-  %w[ vimrc ].each do |file|
-    dest = File.expand_path("~/.#{file}")
-    unless File.exist?(dest)
-      puts "linking #{file}"
-      ln_s(File.expand_path(file), dest)
-    end
   end
 end
 
@@ -34,7 +26,7 @@ end
 desc "update the help tags from the installed plugins"
 task :helptags do
   puts "updating help tags..."
-  sh "vim -c Helptags -c qa"
+  sh "nvim -c Helptags -c qa"
 end
 
 desc "clean up unknown plugins"

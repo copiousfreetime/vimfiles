@@ -2,6 +2,8 @@
 " vim settings organized by section, just like the docs
 " :options for more information
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""" Neovim
+set clipboard+=unnamedplus
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ 1 important
