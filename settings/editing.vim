@@ -15,6 +15,10 @@ map <Leader>p :set paste!<CR>
 " strip leading tabs and trailing whitespace
 command! Tr %s/\s\+$//ge | retab | nohlsearch
 
+" Tab movement
+map tn :tabnext<CR>
+map tp :tabprevious<CR>
+
 " insert a \v to turn off vims regex chars
 nnoremap <Leader><Space> :noh<CR> " clear the search highligth
 nnoremap <tab> %                  " move to matching bracket pairs
