@@ -89,7 +89,7 @@ let g:dbext_default_profile_PG = 'type=PGSQL:user=jeremy'
 let g:ctrlp_open_new_file = 't' " 
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\v[\/](\.git|\.hg|\.svn|tmp)$',
+  \ 'dir':  '\v[\/](\.git|\.hg|\.svn|\.gem|tmp)$',
   \ 'file': '\v\.(exe|so|dll)$',
   \ 'link': 'some_bad_symbolic_links',
   \ }
