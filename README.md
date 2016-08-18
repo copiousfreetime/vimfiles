@@ -6,10 +6,10 @@ Yes.
 
 ## Installation
 
-Clone this repo, then:
-
-1. start vim
-2. `:PlugInstall`
+1. Clone this repo `git clone git@github.com:copiousfreetime/vimfiles.git`
+2. Link the clone to `~/.config/nvim`. `mkdir -p ~/.config && ln -s <location of vimfiles repo> ~/.config/nvim`
+3. start vim
+4. `:PlugInstall`
 
 ## Commands
 
