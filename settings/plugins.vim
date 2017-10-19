@@ -96,3 +96,25 @@ let g:ctrlp_custom_ignore = {
 let g:ctrlp_max_files = 0
 let g:ctrlp_max_depth = 40
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files']
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" Dirvish
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+augroup custom_dirvish_events
+  autocmd!
+  "Map t to 'open in new tab'.
+  autocmd Filetype dirvish
+    \  nnoremap <buffer> t :call dirvish#open('tabedit', 0)<CR>
+    \ |xnoremap <buffer> t :call dirvish#open('tabedit', 0)<CR>
+
+  autocmd Filetype dirvish
+    \  nnoremap <buffer> s :sort r /[^\/]$/<CR>
+    \ |xnoremap <buffer> s :sort r /[^\/]$/<CR>
+augroup END
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" vim-tags
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:vim_tags_auto_generate = 1

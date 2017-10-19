@@ -6,6 +6,7 @@ Plug 'kien/ctrlp.vim'
 " update tags files on ever save
 Plug 'vim-scripts/AutoTag'
 Plug 'mileszs/ack.vim'
+Plug 'szw/vim-tags'
 
 " look at all the buffers we have open
 Plug 'jlanzarotta/bufexplorer'
@@ -40,6 +41,9 @@ Plug 'junegunn/vim-easy-align'
 
 " file manipulation
 Plug 'tpope/vim-eunuch'
+
+" tree browser
+Plug 'justinmk/vim-dirvish'
 
 "## LANGUAGE AND SYNTAX
 " syntax checking
