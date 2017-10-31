@@ -2,6 +2,7 @@ call plug#begin('~/.config/nvim/plugged')
 
 " file navigation
 " Plug 'kien/ctrlp.vim'
+Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim' ", { 'dir': '~/.fzf', 'do': './install --all' }
 
 " update tags files on ever save
