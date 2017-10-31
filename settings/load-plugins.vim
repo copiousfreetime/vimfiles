@@ -16,6 +16,9 @@ Plug 'jlanzarotta/bufexplorer'
 " tmux integeration
 Plug 'christoomey/vim-tmux-runner'
 
+" status line
+Plug 'itchyny/lightline.vim'
+
 " Color schemes
 " Plug 'altercation/vim-colors-solarized'
 " Plug 'chriskempson/vim-tomorrow-theme'
