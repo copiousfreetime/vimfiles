@@ -51,34 +51,22 @@ Plug 'tpope/vim-eunuch'
 Plug 'justinmk/vim-dirvish'
 
 "## LANGUAGE AND SYNTAX
+" All the languages
+Plug 'sheerun/vim-polyglot'
+
 " syntax checking
 Plug 'scrooloose/syntastic'
-Plug 'fatih/vim-go'
-Plug 'kchmck/vim-coffee-script'
 
 " looking at the source code
 Plug 'majutsushi/tagbar'
 
-" ruby language support
-Plug 'vim-ruby/vim-ruby'
+" rails + extra ruby things language support
 Plug 'tpope/vim-rails'
-Plug 'hallison/vim-ruby-sinatra'
 Plug 'joker1007/vim-ruby-heredoc-syntax'
-
-" rust language support
-Plug 'wting/rust.vim'
 
 " csv files
 Plug 'chrisbra/csv.vim'
 
-" markdown
-Plug 'tpope/vim-markdown'
-
-" textile
-Plug 'timcharper/textile.vim'
-
-" toml
-Plug 'cespare/vim-toml'
 
 "## MISC
 
