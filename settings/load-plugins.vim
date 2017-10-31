@@ -1,7 +1,8 @@
 call plug#begin('~/.config/nvim/plugged')
 
 " file navigation
-Plug 'kien/ctrlp.vim'
+" Plug 'kien/ctrlp.vim'
+Plug 'junegunn/fzf.vim' ", { 'dir': '~/.fzf', 'do': './install --all' }
 
 " update tags files on ever save
 Plug 'vim-scripts/AutoTag'
@@ -34,7 +35,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-endwise'
 
 " matching do/end etc
-Plug 'edsono/vim-matchit'
+Plug 'tmhedberg/matchit'
 
 " Align things up neatly
 Plug 'junegunn/vim-easy-align'
