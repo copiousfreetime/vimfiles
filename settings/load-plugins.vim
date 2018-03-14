@@ -60,9 +60,17 @@ Plug 'scrooloose/syntastic'
 " looking at the source code
 Plug 'majutsushi/tagbar'
 
+" sql
+Plug 'martingms/vipsql'
+
 " rails + extra ruby things language support
 Plug 'tpope/vim-rails'
 Plug 'joker1007/vim-ruby-heredoc-syntax'
+
+" javascript etc.
+Plug 'prettier/vim-prettier', {
+    \ 'do': 'npm install',
+    \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss'] }
 
 " csv files
 Plug 'chrisbra/csv.vim'
@@ -81,6 +89,6 @@ Plug 'mattn/gist-vim'
 
 " note taking
 Plug 'mattn/calendar-vim'
-Plug 'fmoralesc/vim-pad'
+Plug 'fmoralesc/vim-pad', { 'branch': 'devel' }
 
 call plug#end()
