@@ -49,7 +49,8 @@ nmap <leader>kf <Plug>(pad-incremental-search)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" notational-fzf-vim
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:nv_search_paths        = ['~/Dropbox/the-archive', './notes',]
+let g:nv_search_paths        = ['./notes','~/Dropbox/the-archive' ]
+let g:nv_main_directory      = '~/Dropbox/the-archive'
 let g:nv_default_extension   = '.md'
 let g:nv_use_short_pathnames = 0
 
