@@ -4,6 +4,7 @@ call plug#begin('~/.config/nvim/plugged')
 " Plug 'kien/ctrlp.vim'
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim' ", { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'Alok/notational-fzf-vim'
 
 " update tags files on ever save
 Plug 'vim-scripts/AutoTag'
