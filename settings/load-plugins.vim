@@ -67,11 +67,7 @@ Plug 'martingms/vipsql'
 " rails + extra ruby things language support
 Plug 'tpope/vim-rails'
 Plug 'joker1007/vim-ruby-heredoc-syntax'
-
-" javascript etc.
-Plug 'prettier/vim-prettier', {
-    \ 'do': 'npm install',
-    \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss'] }
+Plug 'dense-analysis/ale'
 
 " csv files
 Plug 'chrisbra/csv.vim'

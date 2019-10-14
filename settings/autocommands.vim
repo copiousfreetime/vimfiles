@@ -19,3 +19,9 @@ function! s:new_journal_entry(filename)
   let t += ['', '', '## HOURS']
   call append(0, t)
 endfunction
+
+" All the javascripts
+au FileType javascript setlocal shiftwidth=4 tabstop=4
+au FileType javascript.jsx setlocal shiftwidth=4 tabstop=4
+au FileType scss setlocal shiftwidth=4 tabstop=4
+au FileType css setlocal shiftwidth=4 tabstop=4
