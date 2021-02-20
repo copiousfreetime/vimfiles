@@ -56,7 +56,7 @@ Plug 'justinmk/vim-dirvish'
 Plug 'sheerun/vim-polyglot'
 
 " syntax checking
-Plug 'scrooloose/syntastic'
+" Plug 'scrooloose/syntastic'
 
 " looking at the source code
 Plug 'majutsushi/tagbar'
@@ -67,7 +67,7 @@ Plug 'martingms/vipsql'
 " rails + extra ruby things language support
 Plug 'tpope/vim-rails'
 Plug 'joker1007/vim-ruby-heredoc-syntax'
-Plug 'dense-analysis/ale'
+"Plug 'dense-analysis/ale'
 
 " csv files
 Plug 'chrisbra/csv.vim'

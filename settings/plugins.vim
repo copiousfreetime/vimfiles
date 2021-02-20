@@ -95,7 +95,7 @@ let g:dbext_default_profile_PG = 'type=PGSQL:user=jeremy'
 "" Ctrl-P
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Open new file in a new tab
-let g:ctrlp_open_new_file = 't' " 
+let g:ctrlp_open_new_file = 't' "
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\v[\/](\.git|\.hg|\.svn|\.gem|tmp)$',
@@ -167,7 +167,8 @@ noremap <leader>pc :VipsqlSendInterrupt<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
-\   'javascript': ['prettier', 'eslint'],
+\   'javascript': ['prettier'],
 \}
+" \   'javascript': ['prettier', 'eslint'],
 
-let g:ale_fix_on_save = 1
+" let g:ale_fix_on_save = 1
