@@ -56,7 +56,7 @@ Plug 'justinmk/vim-dirvish'
 Plug 'sheerun/vim-polyglot'
 
 " syntax checking
-" Plug 'scrooloose/syntastic'
+Plug 'vim-syntastic/syntastic'
 
 " looking at the source code
 Plug 'majutsushi/tagbar'
