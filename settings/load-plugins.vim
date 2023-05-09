@@ -58,6 +58,8 @@ Plug 'sheerun/vim-polyglot'
 " syntax checking
 Plug 'vim-syntastic/syntastic'
 
+Plug 'pantharshit00/vim-prisma'
+
 " looking at the source code
 Plug 'majutsushi/tagbar'
 
@@ -87,5 +89,8 @@ Plug 'mattn/gist-vim'
 " note taking
 Plug 'mattn/calendar-vim'
 Plug 'fmoralesc/vim-pad', { 'branch': 'devel' }
+
+" Robots
+Plug 'github/copilot.vim'
 
 call plug#end()
