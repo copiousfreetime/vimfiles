@@ -71,6 +71,9 @@ Plug 'tpope/vim-rails'
 Plug 'joker1007/vim-ruby-heredoc-syntax'
 "Plug 'dense-analysis/ale'
 
+" crystal language
+Plug 'vim-crystal/vim-crystal'
+
 " csv files
 Plug 'chrisbra/csv.vim'
 
