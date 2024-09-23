@@ -183,4 +183,4 @@ let g:syntastic_javascript_eslint_exe = 'npm run lint:development --'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " copilot
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let b:copilot_enabled = v:false
+let b:copilot_enabled = v:true
