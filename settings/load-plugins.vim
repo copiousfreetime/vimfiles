@@ -54,6 +54,7 @@ Plug 'justinmk/vim-dirvish'
 "## LANGUAGE AND SYNTAX
 " All the languages
 Plug 'sheerun/vim-polyglot'
+Plug 'vim-scripts/groovy.vim'
 
 " syntax checking
 Plug 'vim-syntastic/syntastic'
