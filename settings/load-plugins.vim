@@ -15,7 +15,7 @@ Plug 'szw/vim-tags'
 Plug 'jlanzarotta/bufexplorer'
 
 " tmux integeration
-Plug 'christoomey/vim-tmux-runner'
+" Plug 'christoomey/vim-tmux-runner'
 
 " status line
 Plug 'itchyny/lightline.vim'
@@ -51,9 +51,13 @@ Plug 'tpope/vim-eunuch'
 " tree browser
 Plug 'justinmk/vim-dirvish'
 
+" copy / paste
+Plug 'ibhagwan/smartyank.nvim'
+
 "## LANGUAGE AND SYNTAX
 " All the languages
 Plug 'sheerun/vim-polyglot'
+Plug 'vim-scripts/groovy.vim'
 
 " syntax checking
 Plug 'vim-syntastic/syntastic'
@@ -69,7 +73,6 @@ Plug 'martingms/vipsql'
 " rails + extra ruby things language support
 Plug 'tpope/vim-rails'
 Plug 'joker1007/vim-ruby-heredoc-syntax'
-"Plug 'dense-analysis/ale'
 
 " crystal language
 Plug 'vim-crystal/vim-crystal'
@@ -95,5 +98,9 @@ Plug 'fmoralesc/vim-pad', { 'branch': 'devel' }
 
 " Robots
 Plug 'github/copilot.vim'
+Plug 'zbirenbaum/copilot.lua'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'CopilotC-Nvim/CopilotChat.nvim', { 'branch': 'canary' }
+
 
 call plug#end()
