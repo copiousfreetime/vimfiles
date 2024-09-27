@@ -184,4 +184,3 @@ let g:syntastic_javascript_eslint_exe = 'npm run lint:development --'
 " copilot
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let b:copilot_enabled = v:true
-let g:copilot_node_command = "~/.nvm/versions/node/v22.7.0/bin/node"
