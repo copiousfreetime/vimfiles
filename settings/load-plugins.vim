@@ -102,5 +102,12 @@ Plug 'zbirenbaum/copilot.lua'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'CopilotC-Nvim/CopilotChat.nvim', { 'branch': 'canary' }
 
+" AI code generation
+Plug 'GeorgesAlkhouri/nvim-aider'
+Plug 'folke/snacks.nvim'
+Plug 'catppuccin/nvim'
+Plug 'nvim-tree/nvim-tree.lua'
+Plug 'nvim-neo-tree/neo-tree.nvim'
+Plug 'MunifTanjim/nui.nvim'
 
 call plug#end()

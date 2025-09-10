@@ -184,3 +184,21 @@ let g:syntastic_javascript_eslint_exe = 'npm run lint:development --'
 " copilot
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let b:copilot_enabled = v:true
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" snacks
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" aider
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+nnoremap <leader>a/ :Aider toggle<CR>
+nnoremap <leader>as :Aider send<CR>
+nnoremap <leader>ac :Aider command<CR>
+nnoremap <leader>ab :Aider buffer<CR>
+nnoremap <leader>a+ :Aider add<CR>
+nnoremap <leader>a- :Aider drop<CR>
+nnoremap <leader>ar :Aider add readonly<CR>
+nnoremap <leader>aR :Aider reset<CR>
+
