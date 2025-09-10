@@ -28,32 +28,6 @@ let g:tagbar_type_ruby = {
     \ ]
 \ }
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" vim-pad
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:pad#dir                    = "~/Dropbox/Notes"
-let g:pad#default_format         = "markdown"
-let g:pad#default_file_extension = ".md"
-let g:pad#local_dir              = "notes"
-let g:pad#window_height          = 15
-let g:pad#set_mappings           = 0
-let g:pad#open_in_split          = 0
-let g:pad#search_backend         = "ag"
-
-nmap <leader>kl <Plug>(pad-list)
-nmap <leader>kn <Plug>(pad-new)
-nmap <leader>ks <Plug>(pad-search)
-nmap <leader>kf <Plug>(pad-incremental-search)
-
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"" notational-fzf-vim
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:nv_search_paths        = ['./notes','~/Dropbox/the-archive' ]
-let g:nv_main_directory      = '~/Dropbox/the-archive'
-let g:nv_default_extension   = '.md'
-let g:nv_use_short_pathnames = 0
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" netrw

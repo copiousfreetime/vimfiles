@@ -4,7 +4,6 @@ call plug#begin('~/.config/nvim/plugged')
 " Plug 'kien/ctrlp.vim'
 Plug '/opt/homebrew/opt/fzf'
 Plug 'junegunn/fzf.vim' ", { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'Alok/notational-fzf-vim'
 
 " update tags files on ever save
 Plug 'vim-scripts/AutoTag'
@@ -92,9 +91,6 @@ Plug 'int3/vim-extradite'
 " Gists
 Plug 'mattn/gist-vim'
 
-" note taking
-Plug 'mattn/calendar-vim'
-Plug 'fmoralesc/vim-pad', { 'branch': 'devel' }
 
 " Robots
 Plug 'github/copilot.vim'
