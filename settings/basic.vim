@@ -1,3 +1,5 @@
+" MIGRATED to lua/config/options.lua
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim settings organized by section, just like the docs
 " :options for more information

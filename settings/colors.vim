@@ -1,3 +1,4 @@
+" Removed as redudnant for now
 " Tell vim that it has 256 colors
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 set t_Co=256

@@ -1,3 +1,4 @@
+" Migrated to lua/config/keymaps.lua
 " setup the leaders
 let mapleader = ','
 let maplocalleader = ','

@@ -5,3 +5,4 @@ autoload/pathogen.vim
 .netrwhist
 plugged/
 .aider*
+.claude*

@@ -1,3 +1,4 @@
+" MIGRATED to lua/config/autocmds.lua
 " Make files really need those tabs
 autocmd FileType make set noexpandtab
 
