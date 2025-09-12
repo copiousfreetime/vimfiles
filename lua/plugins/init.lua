@@ -1,23 +1,20 @@
 return {
   -- File navigation
   {
-    "junegunn/fzf",
-    dir = "/opt/homebrew/opt/fzf",
-  },
-  {
-    "junegunn/fzf.vim",
-    dependencies = { "junegunn/fzf" },
+    "nvim-telescope/telescope.nvim",
+    dependencies = { "nvim-lua/plenary.nvim" },
   },
 
   -- Update tags files on every save
   "vim-scripts/AutoTag",
   "szw/vim-tags",
 
-  -- Look at all the buffers we have open
-  "jlanzarotta/bufexplorer",
-
-  -- Status line
-  "itchyny/lightline.vim",
+  -- Buffer management
+  {
+    "akinsho/bufferline.nvim",
+    version = "*", 
+    dependencies = "nvim-tree/nvim-web-devicons"
+  },
 
   -- EDITING AND MOVING
 
@@ -25,10 +22,10 @@ return {
   "tpope/vim-repeat",
 
   -- Comment out lines
-  "tpope/vim-commentary",
+  "numToStr/Comment.nvim",
 
   -- Deal with pairs
-  "tpope/vim-surround",
+  "kylechui/nvim-surround",
 
   -- Add 'end' where it should go
   "tpope/vim-endwise",
@@ -43,18 +40,23 @@ return {
   "ibhagwan/smartyank.nvim",
 
   -- LANGUAGE AND SYNTAX
-  
-  -- All the languages
-  "sheerun/vim-polyglot",
 
-  -- Syntax checking
-  "vim-syntastic/syntastic",
+  "neovim/nvim-lspconfig",
+  {
+    "mason-org/mason.nvim",
+    opts = {},
+  },
 
-  -- Looking at the source code
-  "majutsushi/tagbar",
-
-  -- SQL
-  "martingms/vipsql",
+  -- Code outline
+  {
+    "stevearc/aerial.nvim",
+    opts = {},
+    -- Optional dependencies
+    dependencies = {
+      "nvim-treesitter/nvim-treesitter",
+      "nvim-tree/nvim-web-devicons"
+    },
+  },
 
   -- Rails + extra ruby things language support
   "tpope/vim-rails",
@@ -63,16 +65,12 @@ return {
   -- Crystal language
   "vim-crystal/vim-crystal",
 
-  -- CSV files
-  "chrisbra/csv.vim",
-
   -- MISC
 
   -- Git support
   "tpope/vim-fugitive",
   "tpope/vim-git",
-  "airblade/vim-gitgutter",
-  "int3/vim-extradite",
+  "lewis6991/gitsigns.nvim",
 
   -- Gists
   "mattn/gist-vim",
