@@ -75,15 +75,6 @@ return {
   -- Gists
   "mattn/gist-vim",
 
-  -- Robots
-  "zbirenbaum/copilot.lua",
-  "nvim-lua/plenary.nvim",
-
-  {
-    "CopilotC-Nvim/CopilotChat.nvim",
-    branch = "canary",
-  },
-
   "folke/snacks.nvim",
   {
     "nvim-neo-tree/neo-tree.nvim",
