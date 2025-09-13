@@ -1,6 +1,10 @@
 -- Globals
 vim.g.have_nerdfont = true
 
+-- Disable netrw since we are using neotree
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
 local opt = vim.opt
 
 opt.clipboard = vim.env.SSH_TY and "" or "unnamedplus"
