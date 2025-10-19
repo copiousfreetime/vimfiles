@@ -1,11 +1,8 @@
 return {
   {
-    "zbirenbaum/copilot.lua",
-    cmd = "Copilot",
-    event = "InsertEnter",
-    opts = {},
+    "github/copilot.vim",
+    event = "VeryLazy",
   },
-
   {
     "CopilotC-Nvim/CopilotChat.nvim",
     dependencies = {
