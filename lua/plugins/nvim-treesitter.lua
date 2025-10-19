@@ -3,11 +3,12 @@ return {
     "nvim-treesitter/nvim-treesitter",
     event = { "VeryLazy" },
     branch = 'master',
-    lazy = vim.fn.argc(-1) == 0, -- load treesitter early when opening a file from the cmdline
+    lazy = false,
     build = ":TSUpdate",
     opts = {
       highlight = { enable = true },
       indent = { enable = true },
+      auto_install = true,
       ensure_installed = {
         "bash",
         "c",

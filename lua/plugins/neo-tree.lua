@@ -9,7 +9,12 @@ return {
     },
     opts = {
       filesystem = {
-        hijack_netrw_bheavior = "open_current"
+        hijack_netrw_bheavior = "open_current",
+        filtered_items = {
+          visible = true, -- Set this to `true`, all "hide" means is 'dimmed out'
+          hide_dotfiles = false,
+          hide_gitignored = false,
+        }
       }
     },
     config = function(_, opts)
