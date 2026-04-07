@@ -136,3 +136,5 @@ htpasswd
 HTAuth
 htdigest
 httpd
+datacenter
+datacenters
